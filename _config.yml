@@ -1,5 +1,16 @@
 title: Home Tech Bits
 description: A place to share digital thinking
-show_downloads: true
+show_downloads: false
+show_fork: false
 google_analytics:
 theme: jekyll-theme-midnight
+github:
+  owner:
+    name: bluekrow
+    url: https://github.com/bluekrow
+  repo:
+    url:
+    zip_url:
+    tar_url:
+    name: bluekrow.github.io
+    tagline: GitHub pages site for bluekrow project
