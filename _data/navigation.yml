@@ -1,0 +1,18 @@
+- link: /
+  name: Home
+- link: /Scripting/
+  name: Scripting
+  sub:
+    - link: /Scripting/Bash/
+      name: Bash Scripting
+    - link: /Scripting/Syntax/
+      name: Syntx Hints
+- link: /OsConfig/
+  name: OS Configuration
+  sub:
+    - link: /OsConfig/Archlinux/
+      name: Arch Linux
+    - link: /OsConfig/DebianWheezy/
+      name: Debian Wheezy
+    - link: /OsConfig/Win10/
+      name: Windows 10

@@ -19,25 +19,7 @@
 
 <body>
   <div id="header">
-    <nav>
-      {% if site.show_fork %}
-      <li class="fork">
-        <a href="{{ site.github.repository_url }}">View On GitHub</a>
-      </li>
-      {% endif %}
-	  {% if site.show_downloads %}
-      <li class="downloads">
-        <a href="{{ site.github.zip_url }}">ZIP</a>
-      </li>
-      <li class="downloads">
-        <a href="{{ site.github.tar_url }}">TAR</a>
-      </li>
-      <li class="title">DOWNLOADS</li>
-      {% endif %}
-      <li class="title">HOME</li>
-      <li class="title">SCRIPTS</li>
-      <li class="title">OS</li>
-    </nav>
+      {% include navigation.html %}
   </div>
   <!-- end header -->
 

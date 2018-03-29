@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home Tech Bits
+nav_level: 1
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
